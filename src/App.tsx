@@ -13,7 +13,7 @@ const locations: LocationItem[] = [
     name: "Masjid",
     icon: <Building className="w-5 h-5" />,
     category: "Ibadah",
-    googleMapsUrl: "https://maps.google.com/search/masjid"
+    googleMapsUrl: "https://maps.app.goo.gl/DCzz6MHBneS7HBnR8"
   },
   {
     name: "Balai RT",
