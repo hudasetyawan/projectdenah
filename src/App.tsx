@@ -19,91 +19,91 @@ const locations: LocationItem[] = [
     name: "Balai RT",
     icon: <Users className="w-5 h-5" />,
     category: "Pemerintahan",
-    googleMapsUrl: "https://maps.google.com/search/balai+rt"
+    googleMapsUrl: "https://maps.app.goo.gl/DCzz6MHBneS7HBnR8"
   },
   {
     name: "Ketua RT",
     icon: <Users className="w-5 h-5" />,
     category: "Pemerintahan",
-    googleMapsUrl: "https://maps.google.com/search/ketua+rt"
+    googleMapsUrl: "https://maps.app.goo.gl/Up3AKKFt7HHr5obZ6?g_st=aw"
   },
   {
     name: "Wakil RT",
     icon: <Users className="w-5 h-5" />,
     category: "Pemerintahan",
-    googleMapsUrl: "https://maps.google.com/search/wakil+rt"
+    googleMapsUrl: "https://maps.app.goo.gl/gSKRK7GN5Wyy8NT6A?g_st=aw"
   },
   {
     name: "Sekretaris",
     icon: <Users className="w-5 h-5" />,
     category: "Pemerintahan",
-    googleMapsUrl: "https://maps.google.com/search/sekretaris+rt"
+    googleMapsUrl: "https://maps.app.goo.gl/aeiDs1bsRaTTGgFH7?g_st=aw"
   },
   {
     name: "Bendahara",
     icon: <Users className="w-5 h-5" />,
     category: "Pemerintahan",
-    googleMapsUrl: "https://maps.google.com/search/bendahara+rt"
+    googleMapsUrl: "https://maps.app.goo.gl/48W6eqpG7NU3oQNK9?g_st=aw"
   },
   {
     name: "TPQ",
     icon: <GraduationCap className="w-5 h-5" />,
     category: "Pendidikan",
-    googleMapsUrl: "https://maps.google.com/search/tpq"
+    googleMapsUrl: "https://maps.app.goo.gl/DCzz6MHBneS7HBnR8"
   },
   {
     name: "RA",
     icon: <GraduationCap className="w-5 h-5" />,
     category: "Pendidikan",
-    googleMapsUrl: "https://maps.google.com/search/raudhatul+athfal"
+    googleMapsUrl: "https://maps.app.goo.gl/tXheV9bMTRek7L3W6?g_st=aw"
   },
   {
     name: "Indomaret",
     icon: <Store className="w-5 h-5" />,
     category: "Komersial",
-    googleMapsUrl: "https://maps.google.com/search/indomaret"
+    googleMapsUrl: "https://maps.app.goo.gl/6NPjQq55UaBVjDEh9?g_st=aw"
   },
   {
     name: "SEKTOR 1",
     icon: <Shield className="w-5 h-5" />,
     category: "Keamanan",
-    googleMapsUrl: "https://maps.google.com/search/sektor+1"
+    googleMapsUrl: "https://maps.app.goo.gl/KA5j4rAmFQ68QVX6A?g_st=aw"
   },
   {
     name: "SEKTOR 2",
     icon: <Shield className="w-5 h-5" />,
     category: "Keamanan",
-    googleMapsUrl: "https://maps.google.com/search/sektor+2"
+    googleMapsUrl: "https://maps.app.goo.gl/9p1sAXDvuG2wN6V89?g_st=aw"
   },
   {
     name: "SEKTOR 3",
     icon: <Shield className="w-5 h-5" />,
     category: "Keamanan",
-    googleMapsUrl: "https://maps.google.com/search/sektor+3"
+    googleMapsUrl: "https://maps.app.goo.gl/WA9uQfyhLWbM3ixe7?g_st=aw"
   },
   {
     name: "SEKTOR 4",
     icon: <Shield className="w-5 h-5" />,
     category: "Keamanan",
-    googleMapsUrl: "https://maps.google.com/search/sektor+4"
+    googleMapsUrl: "https://maps.app.goo.gl/sgCsWhUAGfsxvi5V8?g_st=aw"
   },
   {
     name: "SEKTOR 5",
     icon: <Shield className="w-5 h-5" />,
     category: "Keamanan",
-    googleMapsUrl: "https://maps.google.com/search/sektor+5"
+    googleMapsUrl: "https://maps.app.goo.gl/Pn8ssUgBBJABcgMr5?g_st=aw"
   },
   {
     name: "SEKTOR 6",
     icon: <Shield className="w-5 h-5" />,
     category: "Keamanan",
-    googleMapsUrl: "https://maps.google.com/search/sektor+6"
+    googleMapsUrl: "https://maps.app.goo.gl/vmqgMV3ebTCALKXo7?g_st=aw"
   },
   {
     name: "SEKTOR 7",
     icon: <Shield className="w-5 h-5" />,
     category: "Keamanan",
-    googleMapsUrl: "https://maps.google.com/search/sektor+7"
+    googleMapsUrl: "https://maps.app.goo.gl/n1cNNFLMKkNJPuuFA?g_st=aw"
   }
 ];
 
@@ -130,11 +130,11 @@ function App() {
       <header className="bg-white shadow-sm border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center space-x-3">
-            <div className="bg-blue-600 p-2 rounded-lg">
+            <div className="bg-white-600 p-2 rounded-lg">
               <img 
                 src="/pp.jpg" 
                 alt="Logo" 
-                className="w-10 h-10 rounded-md object-cover"
+                className="w-20 h-20 rounded-md object-cover"
               />
             </div>
             <div>
@@ -160,7 +160,7 @@ function App() {
               <div className="p-6">
                 <div className="relative bg-slate-50 rounded-lg overflow-hidden border-2 border-dashed border-slate-300">
                   <img 
-                    src="/DENAH-01.jpg" 
+                    src="/denahbaru.jpg" 
                     alt="Denah Lokasi" 
                     className="w-full h-auto max-h-[600px] object-contain"
                     onError={(e) => {
@@ -252,7 +252,7 @@ function App() {
       <footer className="bg-white border-t border-slate-200 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="text-center text-sm text-slate-600">
-            <p>© 2025 Peta Denah Interaktif. Dibuat dengan teknologi modern untuk kemudahan navigasi.</p>
+            <p>© 2025 Peta Denah Interaktif. Dibuat oleh Kelompok KKN 23 UNUSIDA.</p>
           </div>
         </div>
       </footer>
