@@ -138,7 +138,7 @@ function App() {
               />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-slate-900">Peta Denah Citra Pesona Buduran RT 37 RW 07</h1>
+              <h1 className="text-2xl font-bold text-slate-900">Peta Denah Citra Oma Pesona Buduran RT 37 RW 07</h1>
               <p className="text-slate-600">Temukan lokasi penting di lingkungan RT 37 RW 07</p>
             </div>
           </div>
